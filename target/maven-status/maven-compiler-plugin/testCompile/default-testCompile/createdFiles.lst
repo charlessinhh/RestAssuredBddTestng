@@ -1,0 +1,3 @@
+runner\RunCucumberTest.class
+com\qa\stepDefinition\HttpReqRes.class
+com\qa\rest\test\GetBddGarnest.class
