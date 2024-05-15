@@ -18,7 +18,8 @@ import io.cucumber.junit.CucumberOptions;
 	    glue = "com.qa.stepDefinition",
 	    		dryRun = false,
 	    	    monochrome = true,
-	    	    plugin = { "pretty" }
+	    	    tags = "@testNG",
+	    	    plugin = "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" 
 	)
 
 public class RunCucumberTest {
