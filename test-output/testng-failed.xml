@@ -3,19 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="runner.RunCucumberTestNG">
+      <class name="com.qa.rest.test.GetAndPost">
         <methods>
-          <include name="setUpClass"/>
-          <include name="beforeMethod"/>
-          <include name="runScenario" invocation-numbers="1 2 0"/>
-          <include name="beforeClass"/>
-          <include name="tearDownClass"/>
-          <include name="afterMethod"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="afterClass"/>
+          <include name="listSingleUser"/>
         </methods>
-      </class> <!-- runner.RunCucumberTestNG -->
+      </class> <!-- com.qa.rest.test.GetAndPost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

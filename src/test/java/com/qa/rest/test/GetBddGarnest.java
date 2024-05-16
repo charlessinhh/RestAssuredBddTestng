@@ -1,31 +1,34 @@
 package com.qa.rest.test;
 
-import static org.testng.Assert.assertEquals;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
-import org.testng.annotations.*;
 import static io.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.*;
+
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 
 public class GetBddGarnest {
 	
 	@Test
-	public void test()
+	public void testGet1()
 	{
 		
-//		int a = 1;
-//		int b = 2;
-//		if(a!=b)System.out.println("yes");
-//		System.out.println("good");
-		
-		given().
-		when().
-			get("http://ergast.com/api/f1/2023/1").
-		then().
-		assertThat().
-		statusCode(200).
-		and().
-		header("Content-length",equalTo("1157"));
+		Response response = RestAssured.get("http://ergast.com/api/f1/2023/1");
+//		System.out.println("response: "+ response.toString());
+		System.out.println("responseTime: "+ response.getTime());
+		System.out.println("response1: "+ response.asPrettyString());
+		System.out.println("StatusCode : "+ response.getStatusCode());
+		Assert.assertEquals(response.getStatusCode(), 200,"200");
 		
 
 	}
+	
+	@Test
+	public void testGet2() {
+		baseURI = "http://ergast.com/api";
+		System.out.println("TestGet 2");
+		given().get("/f1/2023/1").then().statusCode(200);
+	}
+	
 }

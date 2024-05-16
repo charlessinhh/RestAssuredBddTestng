@@ -1,0 +1,6 @@
+runner\RunCucumberTest.class
+com\qa\rest\test\GetAndPost.class
+com\qa\rest\test\GetBddGarnest.class
+runner\RunCucumberTestNG.class
+com\qa\stepDefinition\HttpReqRes.class
+runner\FailedRunner.class

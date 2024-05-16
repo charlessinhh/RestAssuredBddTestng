@@ -1,47 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-15T16:16:57 IST" name="Default suite" finished-at="2024-05-15T16:17:02 IST" duration-ms="5273">
+  <suite started-at="2024-05-16T19:44:47 IST" name="Default suite" finished-at="2024-05-16T19:44:56 IST" duration-ms="8378">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.FailedRunner@5f049ea1]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2024-05-15T16:16:57 IST" name="Default test" finished-at="2024-05-15T16:17:02 IST" duration-ms="5273">
+    <test started-at="2024-05-16T19:44:47 IST" name="Default test" finished-at="2024-05-16T19:44:56 IST" duration-ms="8378">
       <class name="runner.RunCucumberTestNG">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:57 IST" name="beforeSuite" finished-at="2024-05-15T16:16:57 IST" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:47 IST" name="beforeSuite" finished-at="2024-05-16T19:44:47 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:57 IST" name="setUpClass" finished-at="2024-05-15T16:16:58 IST" duration-ms="515" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:47 IST" name="setUpClass" finished-at="2024-05-16T19:44:48 IST" duration-ms="547" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3456558]]>
+                <![CDATA[org.testng.TestRunner@7d247660]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="beforeClass" finished-at="2024-05-15T16:16:58 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="beforeClass" finished-at="2024-05-16T19:44:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="beforeMethod" finished-at="2024-05-15T16:16:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="beforeMethod" finished-at="2024-05-16T19:44:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="beforeMethod" finished-at="2024-05-15T16:16:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="beforeMethod" finished-at="2024-05-16T19:44:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="beforeMethod" finished-at="2024-05-15T16:16:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="beforeMethod" finished-at="2024-05-16T19:44:48 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-15T16:17:00 IST" duration-ms="2544" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-16T19:44:51 IST" duration-ms="2740" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -57,23 +58,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-15T16:17:00 IST" duration-ms="2555" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Verify Status Code1"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Http Get Feature]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:16:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-15T16:17:00 IST" duration-ms="2564" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-16T19:44:51 IST" duration-ms="2726" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -89,52 +74,113 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:00 IST" name="afterMethod" finished-at="2024-05-15T16:17:00 IST" duration-ms="1" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:48 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-05-16T19:44:51 IST" duration-ms="2743" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd] output={null}]]]>
+                <![CDATA["Verify Status Code1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Http Get Feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:51 IST" name="afterMethod" finished-at="2024-05-16T19:44:51 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:00 IST" name="afterMethod" finished-at="2024-05-15T16:17:00 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:51 IST" name="afterMethod" finished-at="2024-05-16T19:44:51 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd] output={null}]]]>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:00 IST" name="afterMethod" finished-at="2024-05-15T16:17:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:51 IST" name="afterMethod" finished-at="2024-05-16T19:44:51 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd] output={null}]]]>
+                <![CDATA[[TestResult name=runScenario status=SUCCESS method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.RunCucumberTestNG@33065d67] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:00 IST" name="afterClass" finished-at="2024-05-15T16:17:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:51 IST" name="afterClass" finished-at="2024-05-16T19:44:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:00 IST" name="tearDownClass" finished-at="2024-05-15T16:17:02 IST" duration-ms="2151" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:51 IST" name="tearDownClass" finished-at="2024-05-16T19:44:51 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:runner.RunCucumberTestNG@46cdf8bd]" started-at="2024-05-15T16:17:02 IST" name="afterSuite" finished-at="2024-05-15T16:17:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:runner.RunCucumberTestNG@33065d67]" started-at="2024-05-16T19:44:56 IST" name="afterSuite" finished-at="2024-05-16T19:44:56 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- runner.RunCucumberTestNG -->
+      <class name="com.qa.rest.test.GetBddGarnest">
+        <test-method signature="testGet1()[pri:0, instance:com.qa.rest.test.GetBddGarnest@d737b89]" started-at="2024-05-16T19:44:51 IST" name="testGet1" finished-at="2024-05-16T19:44:53 IST" duration-ms="1300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet1 -->
+        <test-method signature="testGet2()[pri:0, instance:com.qa.rest.test.GetBddGarnest@d737b89]" started-at="2024-05-16T19:44:53 IST" name="testGet2" finished-at="2024-05-16T19:44:53 IST" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGet2 -->
+      </class> <!-- com.qa.rest.test.GetBddGarnest -->
+      <class name="com.qa.rest.test.GetAndPost">
+        <test-method signature="listUsers()[pri:0, instance:com.qa.rest.test.GetAndPost@2d901eb0]" started-at="2024-05-16T19:44:53 IST" name="listUsers" finished-at="2024-05-16T19:44:54 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listUsers -->
+        <test-method signature="createUser()[pri:1, instance:com.qa.rest.test.GetAndPost@2d901eb0]" started-at="2024-05-16T19:44:54 IST" name="createUser" finished-at="2024-05-16T19:44:55 IST" duration-ms="522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method signature="patchUser()[pri:2, instance:com.qa.rest.test.GetAndPost@2d901eb0]" started-at="2024-05-16T19:44:55 IST" name="patchUser" finished-at="2024-05-16T19:44:55 IST" depends-on-methods="com.qa.rest.test.GetAndPost.createUser" duration-ms="486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchUser -->
+        <test-method signature="deleteUser()[pri:3, instance:com.qa.rest.test.GetAndPost@2d901eb0]" started-at="2024-05-16T19:44:55 IST" name="deleteUser" finished-at="2024-05-16T19:44:56 IST" duration-ms="395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- com.qa.rest.test.GetAndPost -->
+      <class name="runner.FailedRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.FailedRunner@5f049ea1]" started-at="2024-05-16T19:44:56 IST" name="setUpClass" finished-at="2024-05-16T19:44:56 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7d247660]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.FailedRunner@5f049ea1]" started-at="2024-05-16T19:44:56 IST" name="tearDownClass" finished-at="2024-05-16T19:44:56 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.FailedRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

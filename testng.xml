@@ -3,8 +3,9 @@
 <suite name="Suite">
   <test thread-count="5" name="All Test Suite ">
     <classes>
-     <!--  <class name="com.qa.rest.test.GetBddGarnest"/>  -->
-      <class name="runner.RunCucumberTestNG"/>
+     <!-- --> <class name="com.qa.rest.test.GetBddGarnest"/>  
+     <!-- --><class name="runner.RunCucumberTestNG"/> 
+       <class name="com.qa.rest.test.GetAndPost"></class>   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
