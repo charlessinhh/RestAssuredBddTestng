@@ -3,4 +3,5 @@ com\qa\rest\test\GetAndPost.class
 com\qa\rest\test\GetBddGarnest.class
 runner\RunCucumberTestNG.class
 com\qa\stepDefinition\HttpReqRes.class
+com\qa\rest\test\JsonSchemaValidate.class
 runner\FailedRunner.class

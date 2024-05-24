@@ -28,8 +28,8 @@ public class GetAndPost {
 			.assertThat()
             .contentType("application/json; charset=utf-8")
 			.body("data[2].first_name", equalTo("Tobias"))
-			.body("data.first_name", hasItems("George","Tobias","Rachel"))
-			.log().all();
+			.body("data.first_name", hasItems("George","Tobias","Rachel"));
+//			.log().all();
 		
 		
 	}
@@ -96,7 +96,7 @@ public class GetAndPost {
 		
 		JSONObject postData = new JSONObject();
 		postData.put("name", "charles singh");
-		
+		System.out.println("id1 :"+id);
 		baseURI = "https://reqres.in";
 		
 		given()
@@ -109,7 +109,6 @@ public class GetAndPost {
 		.then()
 		.statusCode(200)
 		.log().all();
-		System.out.println("id1 :"+id);
 		
 	}
 	
@@ -124,6 +123,7 @@ public class GetAndPost {
 		
 		.then()
 			;
+		System.out.println("User Deleted by ID: "+id);
 	}
 
 }
