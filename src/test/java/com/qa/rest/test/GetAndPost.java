@@ -107,7 +107,7 @@ public class GetAndPost {
 		.patch("/api/users/"+id)
 		
 		.then()
-		.statusCode(200)
+		.statusCode(201)
 		.log().all();
 		
 	}
