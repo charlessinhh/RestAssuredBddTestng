@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.rest.test.JsonSchemaValidate">
+      <class name="com.qa.web.automation.UItest">
         <methods>
-          <include name="validateSchema"/>
+          <include name="startBrowser"/>
         </methods>
-      </class> <!-- com.qa.rest.test.JsonSchemaValidate -->
+      </class> <!-- com.qa.web.automation.UItest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
