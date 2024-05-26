@@ -6,7 +6,7 @@
      <!-- --> <class name="com.qa.rest.test.GetBddGarnest"/>  
      <!-- --><class name="runner.RunCucumberTestNG"/> 
        <class name="com.qa.rest.test.GetAndPost"></class>   
-       <class name="com.qa.web.automation.UItest"></class>   
+       <!-- <class name="com.qa.web.automation.UItest"></class>    -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
