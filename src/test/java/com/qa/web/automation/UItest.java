@@ -1,6 +1,7 @@
 package com.qa.web.automation;
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -9,18 +10,26 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 
 public class UItest {
 	
+	@Parameters("Browser")
 	@Test
-	public void startBrowser() {
-        
-		// Setup WebDriverManager for ChromeDriver
-//        WebDriverManager.chromedriver().setup();
+	public void startBrowser(String browserName) {
+		WebDriver driver = null;
+		System.out.println("Browser name is "+ browserName);
+		if(browserName.toLowerCase().contains("chrome")) {
+			driver = new ChromeDriver();
+			System.out.println("Chrome driver connected ");
+		}
+		else if(browserName.toLowerCase().contains("edge")) {
+			driver = new EdgeDriver();
+			System.out.println("Edge driver connected ");
+		}
 		
-		WebDriver driver = new ChromeDriver();
-		System.out.println("chrome driver connected ");
+
 		
 		driver.manage().window().maximize();
 		
@@ -40,7 +49,7 @@ public class UItest {
 			e.printStackTrace();
 		}
 		
-		System.out.println("quit browser ");
+		System.out.println("quit browser --*****---$%%$$$*****");
 		driver.quit();
 	}
 	

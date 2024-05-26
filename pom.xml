@@ -39,7 +39,12 @@
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 						<!-- <suiteXmlFile>${suiteXmlFile}</suiteXmlFile> -->
 					</suiteXmlFiles>
-
+					
+					<systemPropertyVariables>
+						<browser>${Browser}</browser> 
+						<!-- <browser>chrome</browser> -->
+						
+					</systemPropertyVariables>
 
 				</configuration>
 
