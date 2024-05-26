@@ -10,7 +10,9 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 
 
 public class UItest {
@@ -20,12 +22,33 @@ public class UItest {
 	public void startBrowser(String browserName) {
 		WebDriver driver = null;
 		System.out.println("Browser name is "+ browserName);
+		
+		
 		if(browserName.toLowerCase().contains("chrome")) {
-			driver = new ChromeDriver();
+			
+			// Configure ChromeOptions
+			ChromeOptions opt=new ChromeOptions();
+			opt.addArguments("--headless");
+			opt.addArguments("--no-sandbox");
+			opt.addArguments("--disable-dev-shm-usage");
+			
+			driver=new ChromeDriver(opt);
+			
 			System.out.println("Chrome driver connected ");
 		}
+		
+		
 		else if(browserName.toLowerCase().contains("edge")) {
-			driver = new EdgeDriver();
+			
+			// Configure EdgeOptions
+	        EdgeOptions options = new EdgeOptions();
+	        options.addArguments("--no-sandbox");
+	        options.addArguments("--disable-dev-shm-usage");
+	        options.addArguments("--headless"); // If you need headless mode
+	        options.addArguments("--remote-debugging-port=9222");
+	        
+			driver = new EdgeDriver(options);
+			
 			System.out.println("Edge driver connected ");
 		}
 		
@@ -36,20 +59,25 @@ public class UItest {
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		
 		String title = driver.getTitle();
+		
 		Assert.assertEquals(title, "OrangeHRM");
+		
 		try {
 			Thread.sleep(10000);
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
 		System.out.println("quit browser --*****---$%%$$$*****");
+		
 		driver.quit();
 	}
 	
