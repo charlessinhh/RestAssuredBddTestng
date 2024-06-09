@@ -41,7 +41,7 @@
 					</suiteXmlFiles>
 					
 					<systemPropertyVariables>
-						<browser>${Browser}</browser> 
+						<!--<browser>${Browser}</browser> -->
 						<!-- <browser>chrome</browser> -->
 						
 					</systemPropertyVariables>
