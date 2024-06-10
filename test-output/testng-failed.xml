@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="amazon.test.LoginTest">
+      <class name="dataDrivenTesting.ReadCSVFile">
         <methods>
-          <include name="loginToAmazon"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="readCsvFile"/>
         </methods>
-      </class> <!-- amazon.test.LoginTest -->
+      </class> <!-- dataDrivenTesting.ReadCSVFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,7 +1,9 @@
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\runner\RunCucumberTestNG.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\com\qa\web\automation\UItest.java
+D:\wkkkspace\RestAssuredBddFramework\src\test\java\amazon\test\LoginTest.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\com\qa\rest\test\GetBddGarnest.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\com\qa\rest\test\JsonSchemaValidate.java
+D:\wkkkspace\RestAssuredBddFramework\src\test\java\com\qa\web\automation\ParaBankTest.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\runner\FailedRunner.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\com\qa\stepDefinition\HttpReqRes.java
 D:\wkkkspace\RestAssuredBddFramework\src\test\java\runner\RunCucumberTest.java

@@ -1,6 +1,7 @@
 package com.qa.web.automation;
 
 import org.testng.Assert;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
@@ -14,7 +15,7 @@ public class UItest {
 	
 	@Parameters("Browser")
 	@Test
-	public void startBrowser(String browserName) {
+	public void startBrowser(@Optional("chrome") String browserName) {
 		WebDriver driver = null;
 		System.out.println("Browser name is "+ browserName);
 		if(browserName.toLowerCase().contains("chrome")) {
