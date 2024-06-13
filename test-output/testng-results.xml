@@ -1,46 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T22:34:19 IST" name="Default suite" finished-at="2024-06-10T22:34:19 IST" duration-ms="113">
+  <suite started-at="2024-06-13T19:52:20 IST" name="Default suite" finished-at="2024-06-13T19:52:58 IST" duration-ms="37427">
     <groups>
     </groups>
-    <test started-at="2024-06-10T22:34:19 IST" name="Default test" finished-at="2024-06-10T22:34:19 IST" duration-ms="113">
-      <class name="dataDrivenTesting.ReadCSVFile">
-        <test-method signature="readCsvFile(java.util.TreeMap)[pri:0, instance:dataDrivenTesting.ReadCSVFile@740cae06]" started-at="2024-06-10T22:34:19 IST" name="readCsvFile" data-provider="testdatacsv" finished-at="2024-06-10T22:34:19 IST" duration-ms="11" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{age=24, firstname=charles1, lastname=singh1}]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2024-06-13T19:52:20 IST" name="Default test" finished-at="2024-06-13T19:52:58 IST" duration-ms="37427">
+      <class name="googleSearch.test.GoogleSearch">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:20 IST" name="setUp" finished-at="2024-06-13T19:52:47 IST" duration-ms="26803" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readCsvFile -->
-        <test-method signature="readCsvFile(java.util.TreeMap)[pri:0, instance:dataDrivenTesting.ReadCSVFile@740cae06]" started-at="2024-06-10T22:34:19 IST" name="readCsvFile" data-provider="testdatacsv" finished-at="2024-06-10T22:34:19 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{age=25, firstname=charles2, lastname=singh2}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method signature="openTabinChrome()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:47 IST" name="openTabinChrome" finished-at="2024-06-13T19:52:58 IST" duration-ms="10569" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readCsvFile -->
-        <test-method signature="readCsvFile(java.util.TreeMap)[pri:0, instance:dataDrivenTesting.ReadCSVFile@740cae06]" started-at="2024-06-10T22:34:19 IST" name="readCsvFile" data-provider="testdatacsv" finished-at="2024-06-10T22:34:19 IST" duration-ms="3" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{age=26, firstname=charles3, lastname=singh3}]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- openTabinChrome -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:58 IST" name="tearDown" finished-at="2024-06-13T19:52:58 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readCsvFile -->
-      </class> <!-- dataDrivenTesting.ReadCSVFile -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- googleSearch.test.GoogleSearch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
