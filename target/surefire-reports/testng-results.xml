@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-10T11:12:52 IST" name="Suite" finished-at="2024-06-10T11:12:57 IST" duration-ms="4530">
+  <suite started-at="2024-06-19T22:16:27 IST" name="Suite" finished-at="2024-06-19T22:16:32 IST" duration-ms="5339">
     <groups>
     </groups>
-    <test started-at="2024-06-10T11:12:52 IST" name="All Test Suite " finished-at="2024-06-10T11:12:57 IST" duration-ms="4530">
-      <class name="com.qa.rest.test.GetBddGarnest">
-        <test-method signature="testGet1()[pri:0, instance:com.qa.rest.test.GetBddGarnest@5ba3f27a]" started-at="2024-06-10T11:12:52 IST" name="testGet1" finished-at="2024-06-10T11:12:56 IST" duration-ms="4083" status="PASS">
+    <test started-at="2024-06-19T22:16:27 IST" name="All Test Suite " finished-at="2024-06-19T22:16:32 IST" duration-ms="5339">
+      <class name="serialisationAndDeserialisation.DeserialisationJSONResponse">
+        <test-method signature="createUser()[pri:0, instance:serialisationAndDeserialisation.DeserialisationJSONResponse@43dac38f]" started-at="2024-06-19T22:16:27 IST" name="createUser" finished-at="2024-06-19T22:16:32 IST" duration-ms="5289" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGet1 -->
-        <test-method signature="testGet2()[pri:0, instance:com.qa.rest.test.GetBddGarnest@5ba3f27a]" started-at="2024-06-10T11:12:56 IST" name="testGet2" finished-at="2024-06-10T11:12:57 IST" duration-ms="400" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGet2 -->
-      </class> <!-- com.qa.rest.test.GetBddGarnest -->
+        </test-method> <!-- createUser -->
+      </class> <!-- serialisationAndDeserialisation.DeserialisationJSONResponse -->
     </test> <!-- All Test Suite  -->
   </suite> <!-- Suite -->
 </testng-results>
