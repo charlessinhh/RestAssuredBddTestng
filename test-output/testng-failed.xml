@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="dataDrivenTesting.ReadCSVFile">
+      <class name="serialisationAndDeserialisation.DeserialisationJSONResponse">
         <methods>
-          <include name="readCsvFile"/>
+          <include name="createUser"/>
         </methods>
-      </class> <!-- dataDrivenTesting.ReadCSVFile -->
+      </class> <!-- serialisationAndDeserialisation.DeserialisationJSONResponse -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

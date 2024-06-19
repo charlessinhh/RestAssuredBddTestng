@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-13T19:52:20 IST" name="Default suite" finished-at="2024-06-13T19:52:58 IST" duration-ms="37427">
+  <suite started-at="2024-06-19T22:08:03 IST" name="Default suite" finished-at="2024-06-19T22:08:08 IST" duration-ms="5024">
     <groups>
     </groups>
-    <test started-at="2024-06-13T19:52:20 IST" name="Default test" finished-at="2024-06-13T19:52:58 IST" duration-ms="37427">
-      <class name="googleSearch.test.GoogleSearch">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:20 IST" name="setUp" finished-at="2024-06-13T19:52:47 IST" duration-ms="26803" status="PASS">
+    <test started-at="2024-06-19T22:08:03 IST" name="Default test" finished-at="2024-06-19T22:08:08 IST" duration-ms="5024">
+      <class name="serialisationAndDeserialisation.DeserialisationJSONResponse">
+        <test-method signature="createUser()[pri:0, instance:serialisationAndDeserialisation.DeserialisationJSONResponse@2794eab6]" started-at="2024-06-19T22:08:03 IST" name="createUser" finished-at="2024-06-19T22:08:08 IST" duration-ms="4969" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="openTabinChrome()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:47 IST" name="openTabinChrome" finished-at="2024-06-13T19:52:58 IST" duration-ms="10569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openTabinChrome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:googleSearch.test.GoogleSearch@6bbe85a8]" started-at="2024-06-13T19:52:58 IST" name="tearDown" finished-at="2024-06-13T19:52:58 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- googleSearch.test.GoogleSearch -->
+        </test-method> <!-- createUser -->
+      </class> <!-- serialisationAndDeserialisation.DeserialisationJSONResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

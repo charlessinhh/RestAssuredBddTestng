@@ -9,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -22,12 +23,13 @@ public class GoogleSearch {
 		System.out.println("Before test execution");
 
 		ChromeOptions opt = new ChromeOptions();
-//		opt.addArguments("--headless");
+		opt.addArguments("--headless");
 		driver = new ChromeDriver(opt);
 
 		driver.manage().window().maximize();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		Reporter.log("Browser opened", true);
 
 	}
 	
@@ -51,11 +53,14 @@ public class GoogleSearch {
 		searchText.sendKeys("Football");
 		
 		driver.findElement(By.xpath("//input[@name='btnK']")).click();
-
+		
+		
 	}
 
 	@AfterTest
 	public void tearDown() throws InterruptedException {
+		Reporter.getCurrentTestResult();
+//		Reporter.
 		System.out.println("tear down execution");
 
 //		driver.quit();
