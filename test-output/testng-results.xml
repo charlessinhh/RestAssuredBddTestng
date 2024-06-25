@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-19T22:08:03 IST" name="Default suite" finished-at="2024-06-19T22:08:08 IST" duration-ms="5024">
+  <suite started-at="2024-06-25T21:09:49 IST" name="Default suite" finished-at="2024-06-25T21:10:19 IST" duration-ms="30332">
     <groups>
     </groups>
-    <test started-at="2024-06-19T22:08:03 IST" name="Default test" finished-at="2024-06-19T22:08:08 IST" duration-ms="5024">
-      <class name="serialisationAndDeserialisation.DeserialisationJSONResponse">
-        <test-method signature="createUser()[pri:0, instance:serialisationAndDeserialisation.DeserialisationJSONResponse@2794eab6]" started-at="2024-06-19T22:08:03 IST" name="createUser" finished-at="2024-06-19T22:08:08 IST" duration-ms="4969" status="PASS">
+    <test started-at="2024-06-25T21:09:49 IST" name="Default test" finished-at="2024-06-25T21:10:19 IST" duration-ms="30332">
+      <class name="googleSearch.test.IncognitoAndXpath">
+        <test-method signature="incognito()[pri:0, instance:googleSearch.test.IncognitoAndXpath@60099951]" started-at="2024-06-25T21:09:49 IST" name="incognito" finished-at="2024-06-25T21:10:18 IST" duration-ms="29523" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-      </class> <!-- serialisationAndDeserialisation.DeserialisationJSONResponse -->
+        </test-method> <!-- incognito -->
+      </class> <!-- googleSearch.test.IncognitoAndXpath -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
